@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Genetic Apex",
+    "cards": 226,
+    "date": "10/30/24",
+    "description": "Genetic Apex is the base set released in Pokémon TCG Pocket. It features 3 themed booster packs: Charizard, Mewtwo, and Pikachu with each containing cards exclusive to their theme. The majority of the cards are from Generation 1, but the set also features some Pokémon from other Generations.",
+    "url": "https://www.youtube.com/embed/ttIlVC9tKOs?si=3FUtQ9M64EAQQfOj"
+  },
+  {
+    "id": 2,
+    "name": "Mythical Island",
+    "date": "12/17/24",
+    "cards": 85,
+    "description": "Mythical Island is the first mini expansion in Pokémon TCG Pocket. It contains 1 themed booster pack and is themed after the mythical Pokémon Mew and Celebi. The expansion contains new ex Pokémon like Aerodactyl ex, Celebi ex, and Mew ex.",
+    "url": "https://www.youtube.com/embed/42Da-bPEAJw?si=PU3G9QKcI80YI0PH"
+  },
+  {
+    "id": 3,
+    "name": "Space-Time Smackdown",
+    "date": "01/30/25",
+    "cards": 207,
+    "description": "Space-Time Smackdown is the first big expansion in Pokémon TCG Pocket. It features 2 themed booster packs: Palkia and Dialga and primarily focuses on Pokémon from Generation 6. This massive expansion features new ex Pokémon like Palkia ex, Dialga ex, and Infernape ex.",
+    "url": "https://www.youtube.com/embed/CiLAY4HmNxk?si=ZHTF9EukaW-9vyW3"
+  },
+  {
+    "id": 4,
+    "name": "Triumphant Light",
+    "date": "02/28/25",
+    "cards": 96,
+    "description": "Triumphant Light is a mini expansion that is focused on Arceus. It introduces Pokémon with special abilities that function when Arceus is in play. The set expands the Generation 6 card pool by adding Pokémon like Arceus ex, Garchomp ex, Glaceon ex, and Leafeon ex.",
+    "url": "https://www.youtube.com/embed/S25MDC8Nr6c?si=_uZIQDZbCZaYdhd5"
+  },
+  {
+    "id": 5,
+    "name": "Shining Revelry",
+    "date": "03/26/25",
+    "cards": 111,
+    "description": "Shining Revelry is a mini set that introduces a new type of rarity to Pokémon TCG Pocket, the Shiny Rare. The set features new ex Pokémon like Lucario ex, Beedrill ex, new variants of Charizard ex and Pikachu ex, along with other Pokémon from various generations.",
+    "url": "https://www.youtube.com/embed/pOoD9cMMyNE?si=7vAXnEwB-1qkgEIk"
+  }
+]

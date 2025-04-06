@@ -1,0 +1,1552 @@
+[
+  {
+    "id": 9,
+    "type": "Pokemon",
+    "name": "Pikachu",
+    "stats": {
+      "hp": "60",
+      "type": "lightning",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "lightning",
+            "amount": 1
+          }
+        ],
+        "name": "Gnaw",
+        "value": "20"
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+    "set": "Genetic Apex",
+    "artist": "Atsushi Furusawa",
+    "image": "/images/promos/promo09.webp"
+  },
+  {
+    "id": 10,
+    "type": "Pokemon",
+    "name": "Mewtwo",
+    "stats": {
+      "hp": "120",
+      "type": "psychic",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "psychic",
+            "amount": 2
+          },
+          {
+            "type": "normal",
+            "amount": 2
+          }
+        ],
+        "name": "Power Blast",
+        "value": "120",
+        "description": "Discard 2 Psychic Energy from this Pokémon."
+      }
+    ],
+    "weakness": "darkness",
+    "retreat": 2,
+    "description": "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments.",
+    "set": "Genetic Apex",
+    "artist": "Krgc",
+    "image": "/images/promos/promo10.webp"
+  },
+  {
+    "id": 11,
+    "type": "Pokemon",
+    "name": "Chansey",
+    "stats": {
+      "hp": "120",
+      "type": "normal",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "normal",
+            "amount": 3
+          }
+        ],
+        "name": "Gentle Slap",
+        "value": 60
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 3,
+    "description": "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people.",
+    "set": "Genetic Apex",
+    "artist": "sowsow",
+    "image": "/images/promos/promo11.webp"
+  },
+  {
+    "id": 12,
+    "type": "Pokemon",
+    "name": "Meowth",
+    "stats": {
+      "hp": "60",
+      "type": "normal",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Pay Day",
+        "value": "10",
+        "description": "Draw a card."
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
+    "set": "Genetic Apex",
+    "artist": "Shigenori Negishi",
+    "image": "/images/promos/promo12.webp"
+  },
+  {
+    "id": 13,
+    "type": "Pokemon",
+    "name": "Butterfree",
+    "stats": {
+      "hp": "120",
+      "type": "grass",
+      "stage": "Stage 2"
+    },
+    "attacks": [
+      {
+        "name": "Ability: Powder Heal",
+        "description": "Once during your turn, you may heal 20 damage from each of your Pokémon."
+      },
+      {
+        "costs": [
+          {
+            "type": "grass",
+            "amount": 1
+          },
+          {
+            "type": "normal",
+            "amount": 2
+          }
+        ],
+        "name": "Gust",
+        "value": "60"
+      }
+    ],
+    "weakness": "fire",
+    "retreat": 1,
+    "description": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+    "set": "Genetic Apex",
+    "artist": "miki kudo",
+    "image": "/images/promos/promo13.webp"
+  },
+  {
+    "id": 14,
+    "type": "Pokemon",
+    "name": "Lapras ex",
+    "stats": {
+      "hp": "140",
+      "type": "water",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "water",
+            "amount": 2
+          },
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Bubble Drain",
+        "value": "80",
+        "description": "Heal 20 damage from this Pokémon."
+      }
+    ],
+    "weakness": "lightning",
+    "retreat": 3,
+    "description": "When your Pokémon ex is Knocked Out, your opponent gets 2 points.",
+    "set": "Genetic Apex",
+    "artist": "PLANETA CG Works",
+    "image": "/images/promos/promo14.webp"
+  },
+  {
+    "id": 15,
+    "type": "Pokemon",
+    "name": "Pikachu",
+    "stats": {
+      "hp": "60",
+      "type": "lightning",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "lightning",
+            "amount": 1
+          }
+        ],
+        "name": "Gnaw",
+        "value": "20"
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+    "set": "Genetic Apex",
+    "artist": "Kouki Saitou",
+    "image": "/images/promos/promo15.webp"
+  },
+  {
+    "id": 16,
+    "type": "Pokemon",
+    "name": "Clefairy",
+    "stats": {
+      "hp": "60",
+      "type": "psychic",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "psychic",
+            "amount": 1
+          }
+        ],
+        "name": "Slap",
+        "value": "20"
+      }
+    ],
+    "weakness": "metal",
+    "retreat": 1,
+    "description": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+    "set": "Genetic Apex",
+    "artist": "Shibuzoh",
+    "image": "/images/promos/promo16.webp"
+  },
+  {
+    "id": 17,
+    "type": "Pokemon",
+    "name": "Mankey",
+    "stats": {
+      "hp": "50",
+      "type": "fighting",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "fighting",
+            "amount": 1
+          }
+        ],
+        "name": "Reckless Charge",
+        "value": "30",
+        "description": "This Pokémon also does 10 damage to itself."
+      }
+    ],
+    "weakness": "psychic",
+    "retreat": 1,
+    "description": "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
+    "set": "Genetic Apex",
+    "artist": "Souichirou Gunjima",
+    "image": "/images/promos/promo17.webp"
+  },
+  {
+    "id": 18,
+    "type": "Pokemon",
+    "name": "Venusaur",
+    "stats": {
+      "hp": "160",
+      "type": "grass",
+      "stage": "Stage 2"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "grass",
+            "amount": 2
+          },
+          {
+            "type": "normal",
+            "amount": 2
+          }
+        ],
+        "name": "Mega Drain",
+        "value": "80",
+        "description": "Heal 30 damage from this Pokémon."
+      }
+    ],
+    "weakness": "fire",
+    "retreat": 3,
+    "description": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+    "set": "Genetic Apex",
+    "artist": "Kuroimori",
+    "image": "/images/promos/promo18.webp"
+  },
+  {
+    "id": 19,
+    "type": "Pokemon",
+    "name": "Greninja",
+    "stats": {
+      "hp": "120",
+      "type": "water",
+      "stage": "Stage 2"
+    },
+    "attacks": [
+      {
+        "name": "Ability: Water Shuriken",
+        "description": "Once during your turn, you may do 20 damage to 1 of your opponent's Pokémon."
+      },
+      {
+        "costs": [
+          {
+            "type": "water",
+            "amount": 1
+          },
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Mist Slash",
+        "value": "60"
+      }
+    ],
+    "weakness": "lightning",
+    "retreat": 1,
+    "description": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+    "set": "Genetic Apex",
+    "artist": "Sanosuke Sakuma",
+    "image": "/images/promos/promo19.webp"
+  },
+  {
+    "id": 20,
+    "type": "Pokemon",
+    "name": "Haunter",
+    "stats": {
+      "hp": "70",
+      "type": "psychic",
+      "stage": "Stage 1"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "psychic",
+            "amount": 1
+          }
+        ],
+        "name": "Surprise Attack",
+        "value": "50",
+        "description": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "weakness": "darkness",
+    "retreat": 1,
+    "description": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+    "set": "Genetic Apex",
+    "artist": "Mékayu",
+    "image": "/images/promos/promo20.webp"
+  },
+  {
+    "id": 21,
+    "type": "Pokemon",
+    "name": "Onix",
+    "stats": {
+      "hp": "110",
+      "type": "fighting",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "fighting",
+            "amount": 3
+          }
+        ],
+        "name": "Land Crush",
+        "value": "70"
+      }
+    ],
+    "weakness": "grass",
+    "retreat": 4,
+    "description": "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
+    "set": "Genetic Apex",
+    "artist": "Tomokazu Komiya",
+    "image": "/images/promos/promo21.webp"
+  },
+  {
+    "id": 22,
+    "type": "Pokemon",
+    "name": "Jigglypuff",
+    "stats": {
+      "hp": "50",
+      "type": "normal",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Sing",
+        "description": "Your opponent's Active Pokémon is now Asleep."
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+    "set": "Genetic Apex",
+    "artist": "Kurata So",
+    "image": "/images/promos/promo22.webp"
+  },
+  {
+    "id": 23,
+    "type": "Pokemon",
+    "name": "Bulbasaur",
+    "stats": {
+      "hp": "70",
+      "type": "grass",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "grass",
+            "amount": 1
+          },
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Vine Whip",
+        "value": "40"
+      }
+    ],
+    "weakness": "fire",
+    "retreat": 1,
+    "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+    "set": "Genetic Apex",
+    "artist": "Kouki Saitou",
+    "image": "/images/promos/promo23.webp"
+  },
+  {
+    "id": 24,
+    "type": "Pokemon",
+    "name": "Magnemite",
+    "stats": {
+      "hp": "60",
+      "type": "lightning",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "lightning",
+            "amount": 1
+          }
+        ],
+        "name": "Lightning Ball",
+        "value": "20"
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+    "set": "Genetic Apex",
+    "artist": "Miki Tanaka",
+    "image": "/images/promos/promo24.webp"
+  },
+  {
+    "id": 25,
+    "type": "Pokemon",
+    "name": "Moltres ex",
+    "stats": {
+      "hp": "140",
+      "type": "fire",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "fire",
+            "amount": 1
+          }
+        ],
+        "name": "Inferno Dance",
+        "description": "Flip 3 coins. Take an amount of Fire Energy from your Energy Zone equal to the number of heads and attach it to your Benched Fire Pokémon in any way you like."
+      },
+      {
+        "costs": [
+          {
+            "type": "fire",
+            "amount": 1
+          },
+          {
+            "type": "normal",
+            "amount": 2
+          }
+        ],
+        "name": "Heat Blast",
+        "value": "70"
+      }
+    ],
+    "weakness": "lightning",
+    "retreat": 2,
+    "description": "When your Pokémon ex is Knocked Out, your opponent gets 2 points.",
+    "set": "Mythical Island",
+    "artist": "PLANETA Igarashi",
+    "image": "/images/promos/promo25.webp"
+  },
+  {
+    "id": 26,
+    "type": "Pokemon",
+    "name": "Pikachu",
+    "stats": {
+      "hp": "60",
+      "type": "lightning",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "lightning",
+            "amount": 1
+          }
+        ],
+        "name": "Gnaw",
+        "value": "20"
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+    "set": "Mythical Island",
+    "artist": "Kouki Saitou",
+    "image": "/images/promos/promo26.webp"
+  },
+  {
+    "id": 27,
+    "type": "Pokemon",
+    "name": "Snivy",
+    "stats": {
+      "hp": "60",
+      "type": "grass",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "grass",
+            "amount": 1
+          }
+        ],
+        "name": "Tackle",
+        "value": "20"
+      }
+    ],
+    "weakness": "fire",
+    "retreat": 1,
+    "description": "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
+    "set": "Mythical Island",
+    "artist": "Yoriyuki Ikegami",
+    "image": "/images/promos/promo27.webp"
+  },
+  {
+    "id": 28,
+    "type": "Pokemon",
+    "name": "Volcarona",
+    "stats": {
+      "hp": "120",
+      "type": "fire",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "fire",
+            "amount": 2
+          },
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Volcanic Ash",
+        "description": "Discard 2 Fire Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon."
+      }
+    ],
+    "weakness": "water",
+    "retreat": 2,
+    "description": "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
+    "set": "Mythical Island",
+    "artist": "Shin Nagasawa",
+    "image": "/images/promos/promo28.webp"
+  },
+  {
+    "id": 29,
+    "type": "Pokemon",
+    "name": "Blastoise",
+    "stats": {
+      "hp": "150",
+      "type": "water",
+      "stage": "Stage 2"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "water",
+            "amount": 2
+          },
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Hydro Pump",
+        "value": "80+",
+        "description": "If this Pokémon has at least 2 extra Water Energy attached, this attack does 60 more damage."
+      }
+    ],
+    "weakness": "lightning",
+    "retreat": 3,
+    "description": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+    "set": "Mythical Island",
+    "artist": "danciao",
+    "image": "/images/promos/promo29.webp"
+  },
+  {
+    "id": 30,
+    "type": "Pokemon",
+    "name": "Eevee",
+    "stats": {
+      "hp": "60",
+      "type": "normal",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Grow",
+        "description": "During your opponent's next turn, attacks used by the Defending Pokémon do -20 damage."
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
+    "set": "Mythical Island",
+    "artist": "En Morikura",
+    "image": "/images/promos/promo30.webp"
+  },
+  {
+    "id": 31,
+    "type": "Pokemon",
+    "name": "Cinccino",
+    "stats": {
+      "hp": "90",
+      "type": "normal",
+      "stage": "Stage 1"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "normal",
+            "amount": 3
+          }
+        ],
+        "name": "Do the Wave",
+        "value": "30x",
+        "description": "During your opponent's next turn, attacks used by the Defending Pokémon do -20 damage."
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won’t tolerate even a speck of the stuff.",
+    "set": "Mythical Island",
+    "artist": "MAHOU",
+    "image": "/images/promos/promo31.webp"
+  },
+  {
+    "id": 32,
+    "type": "Pokemon",
+    "name": "Charmander",
+    "stats": {
+      "hp": "60",
+      "type": "fire",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "fire",
+            "amount": 1
+          }
+        ],
+        "name": "Ember",
+        "value": "30",
+        "description": "Discard a Fire Energy from this Pokémon."
+      }
+    ],
+    "weakness": "water",
+    "retreat": 1,
+    "description": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+    "set": "Mythical Island",
+    "artist": "Naoyo Kimura",
+    "image": "/images/promos/promo32.webp"
+  },
+  {
+    "id": 33,
+    "type": "Pokemon",
+    "name": "Squirtle",
+    "stats": {
+      "hp": "60",
+      "type": "water",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "water",
+            "amount": 1
+          }
+        ],
+        "name": "Water Gun",
+        "value": "20"
+      }
+    ],
+    "weakness": "lightning",
+    "retreat": 1,
+    "description": "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+    "set": "Mythical Island",
+    "artist": "Kanako Eo",
+    "image": "/images/promos/promo33.webp"
+  },
+  {
+    "id": 34,
+    "type": "Pokemon",
+    "name": "Piplup",
+    "stats": {
+      "hp": "60",
+      "type": "water",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Nap",
+        "description": "Heal 20 damage from this Pokémon."
+      }
+    ],
+    "weakness": "lightning",
+    "retreat": 1,
+    "description": "It doesn't like to be taken care of. It's difficult to bond with since it won't listen to its Trainer.",
+    "set": "Space-Time Smackdown",
+    "artist": "Kariya",
+    "image": "/images/promos/promo34.webp"
+  },
+  {
+    "id": 35,
+    "type": "Pokemon",
+    "name": "Turtwig",
+    "stats": {
+      "hp": "80",
+      "type": "grass",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "grass",
+            "amount": 1
+          },
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Bite",
+        "value": "30"
+      }
+    ],
+    "weakness": "fire",
+    "retreat": 2,
+    "description": "It uses its whole body to photosynthesize when exposed to sunlight. Its shell is made from hardened soil.",
+    "set": "Space-Time Smackdown",
+    "artist": "Atsuko Nishida",
+    "image": "/images/promos/promo35.webp"
+  },
+  {
+    "id": 36,
+    "type": "Pokemon",
+    "name": "Electivire",
+    "stats": {
+      "hp": "120",
+      "type": "lightning",
+      "stage": "Stage 1"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "lightning",
+            "amount": 2
+          }
+        ],
+        "name": "Exciting Voltage",
+        "value": "40+",
+        "description": "If this Pokémon has at least 2 extra Lightning Energy attached, this attack does 80 more damage."
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 3,
+    "description": "The amount of electrical energy this Pokémon produces is proportional to the rate of its pulse. The voltage jumps while Electivire is battling.",
+    "set": "Space-Time Smackdown",
+    "artist": "Sumiyoshi Kizuki",
+    "image": "/images/promos/promo36.webp"
+  },
+  {
+    "id": 37,
+    "type": "Pokemon",
+    "name": "Cresselia ex",
+    "stats": {
+      "hp": "140",
+      "type": "psychic",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "name": "Ability: Lunar Plumage",
+        "description": "Whenever you attach a Psychic Energy from your Energy Zone to this Pokémon, heal 20 damage from this Pokémon."
+      },
+      {
+        "costs": [
+          {
+            "type": "psychic",
+            "amount": 2
+          },
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Psychic Flash",
+        "value": "80"
+      }
+    ],
+    "weakness": "darkness",
+    "retreat": 2,
+    "description": "When your Pokémon ex is Knocked Out, your opponent gets 2 points.",
+    "set": "Space-Time Smackdown",
+    "artist": "PLANETA Mochizuki",
+    "image": "/images/promos/promo37.webp"
+  },
+  {
+    "id": 38,
+    "type": "Pokemon",
+    "name": "Misdreavus",
+    "stats": {
+      "hp": "60",
+      "type": "psychic",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "psychic",
+            "amount": 1
+          }
+        ],
+        "name": "Confuse Ray",
+        "description": "Your opponent's Active Pokémon is now Confused."
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
+    "set": "Space-Time Smackdown",
+    "artist": "Miki Tanaka",
+    "image": "/images/promos/promo38.webp"
+  },
+  {
+    "id": 39,
+    "type": "Pokemon",
+    "name": "Skarmory",
+    "stats": {
+      "hp": "80",
+      "type": "metal",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "metal",
+            "amount": 1
+          }
+        ],
+        "name": "Metal Arms",
+        "value": "20+",
+        "description": "If this Pokémon has a Pokémon Tool attached, this attack does 30 more damage."
+      }
+    ],
+    "weakness": "lightning",
+    "retreat": 1,
+    "description": "People fashion swords from Skarmory's shed feathers, so this Pokémon is a popular element in heraldic designs.",
+    "set": "Space-Time Smackdown",
+    "artist": "Anesaki Dynamic",
+    "image": "/images/promos/promo39.webp"
+  },
+  {
+    "id": 40,
+    "type": "Pokemon",
+    "name": "Chimchar",
+    "stats": {
+      "hp": "60",
+      "type": "fire",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "fire",
+            "amount": 1
+          }
+        ],
+        "name": "Scratch",
+        "value": "20"
+      }
+    ],
+    "weakness": "water",
+    "retreat": 1,
+    "description": "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire.",
+    "set": "Space-Time Smackdown",
+    "artist": "sui",
+    "image": "/images/promos/promo40.webp"
+  },
+  {
+    "id": 41,
+    "type": "Pokemon",
+    "name": "Togepi",
+    "stats": {
+      "hp": "50",
+      "type": "psychic",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "psychic",
+            "amount": 1
+          }
+        ],
+        "name": "Pound",
+        "value": "20"
+      }
+    ],
+    "weakness": "metal",
+    "retreat": 1,
+    "description": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+    "set": "Space-Time Smackdown",
+    "artist": "Naoyo Kimura",
+    "image": "/images/promos/promo41.webp"
+  },
+  {
+    "id": 42,
+    "type": "Pokemon",
+    "name": "Darkrai ex",
+    "stats": {
+      "hp": "140",
+      "type": "darkness",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "name": "Ability: Nightmare Aura",
+        "description": "Whenever you attach a Darkness Energy from your Energy Zone to this Pokémon, do 20 damage to your opponent's Active Pokémon."
+      },
+      {
+        "costs": [
+          {
+            "type": "darkness",
+            "amount": 2
+          },
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Dark Prism",
+        "value": "80"
+      }
+    ],
+    "weakness": "grass",
+    "retreat": 2,
+    "description": "When your Pokémon ex is Knocked Out, your opponent gets 2 points.",
+    "set": "Triumphant Light",
+    "artist": "PLANETA Mochizuki",
+    "image": "/images/promos/promo42.webp"
+  },
+  {
+    "id": 43,
+    "type": "Pokemon",
+    "name": "Cherrim",
+    "stats": {
+      "hp": "80",
+      "type": "grass",
+      "stage": "Stage 1"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "grass",
+            "amount": 2
+          }
+        ],
+        "name": "Leech Seed",
+        "value": "60",
+        "description": "Heal 20 damage from this Pokémon."
+      }
+    ],
+    "weakness": "fire",
+    "retreat": 1,
+    "description": "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.",
+    "set": "Triumphant Light",
+    "artist": "MAHOU",
+    "image": "/images/promos/promo43.webp"
+  },
+  {
+    "id": 44,
+    "type": "Pokemon",
+    "name": "Raichu",
+    "stats": {
+      "hp": "90",
+      "type": "lightning",
+      "stage": "Stage 1"
+    },
+    "attacks": [
+      {
+        "name": "Ability: Resilience Link",
+        "description": "If you have Arceus or Arceus ex in play, this Pokémon takes -30 damage from attacks."
+      },
+      {
+        "costs": [
+          {
+            "type": "lightning",
+            "amount": 2
+          }
+        ],
+        "name": "Spark",
+        "value": "40",
+        "description": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+    "set": "Triumphant Light",
+    "artist": "Kazumasa Yasukuni",
+    "image": "/images/promos/promo44.webp"
+  },
+  {
+    "id": 45,
+    "type": "Pokemon",
+    "name": "Nosepass",
+    "stats": {
+      "hp": "60",
+      "type": "fighting",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "normal",
+            "amount": 2
+          }
+        ],
+        "name": "Iron Defense",
+        "description": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks."
+      }
+    ],
+    "weakness": "grass",
+    "retreat": 1,
+    "description": "It moves less than an inch a year, but when it's in a jam, it will spin and drill down into the ground in a split second.",
+    "set": "Triumphant Light",
+    "artist": "Tomokazu Komiya",
+    "image": "/images/promos/promo45.webp"
+  },
+  {
+    "id": 46,
+    "type": "Pokemon",
+    "name": "Gible",
+    "stats": {
+      "hp": "60",
+      "type": "fighting",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "fighting",
+            "amount": 1
+          }
+        ],
+        "name": "Tackle",
+        "value": "20"
+      }
+    ],
+    "weakness": "grass",
+    "retreat": 1,
+    "description": "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
+    "set": "Triumphant Light",
+    "artist": "Uninori",
+    "image": "/images/promos/promo46.webp"
+  },
+  {
+    "id": 47,
+    "type": "Pokemon",
+    "name": "Staraptor",
+    "stats": {
+      "hp": "140",
+      "type": "normal",
+      "stage": "Stage 2"
+    },
+    "attacks": [
+      {
+        "name": "Ability: Defensive Whirlwind",
+        "description": "This Pokémon takes -30 damage from attacks from Fighting Pokémon."
+      },
+      {
+        "costs": [
+          {
+            "type": "normal",
+            "amount": 3
+          }
+        ],
+        "name": "Wing Attack",
+        "value": "90"
+      }
+    ],
+    "weakness": "lightning",
+    "retreat": 1,
+    "description": "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+    "set": "Triumphant Light",
+    "artist": "Hasuno",
+    "image": "/images/promos/promo47.webp"
+  },
+  {
+    "id": 48,
+    "type": "Pokemon",
+    "name": "Manaphy",
+    "stats": {
+      "hp": "50",
+      "type": "water",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "water",
+            "amount": 1
+          }
+        ],
+        "name": "Oceanic Gift",
+        "description": "Choose 2 of your Benched Pokémon. For each of those Pokémon, take a Water Energy from your Energy Zone and attach it to that Pokémon."
+      }
+    ],
+    "weakness": "lightning",
+    "retreat": 1,
+    "description": "It is born with a wondrous power that lets it bond with any kind of Pokémon.",
+    "set": "Triumphant Light",
+    "artist": "sui",
+    "image": "/images/promos/promo48.webp"
+  },
+  {
+    "id": 49,
+    "type": "Pokemon",
+    "name": "Snorlax",
+    "stats": {
+      "hp": "140",
+      "type": "normal",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "normal",
+            "amount": 4
+          }
+        ],
+        "name": "Collapse",
+        "value": "100",
+        "description": "This Pokémon is now Asleep."
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 4,
+    "description": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+    "set": "Triumphant Light",
+    "artist": "okayamatakatoshi",
+    "image": "/images/promos/promo49.webp"
+  },
+  {
+    "id": 50,
+    "type": "Pokemon",
+    "name": "Mewtwo ex",
+    "stats": {
+      "hp": "150",
+      "type": "psychic",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "psychic",
+            "amount": 1
+          },
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Psychic Sphere",
+        "value": "50"
+      },
+      {
+        "costs": [
+          {
+            "type": "psychic",
+            "amount": 2
+          },
+          {
+            "type": "normal",
+            "amount": 2
+          }
+        ],
+        "name": "Psydrive",
+        "value": 150,
+        "description": "Discard 2 Psychic Energy from this Pokémon."
+      }
+    ],
+    "weakness": "darkness",
+    "retreat": 2,
+    "description": "When your Pokémon ex is Knocked Out, your opponent gets 2 points.",
+    "set": "Shining Revelry",
+    "artist": "PLANETA Mochizuki",
+    "image": "/images/promos/promo50.webp"
+  },
+  {
+    "id": 51,
+    "type": "Pokemon",
+    "name": "Cyclizar",
+    "stats": {
+      "hp": "80",
+      "type": "normal",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "normal",
+            "amount": 1
+          }
+        ],
+        "name": "Overacceleration",
+        "value": "20",
+        "description": "During your next turn, this Pokémon's Overacceleration attack does +20 damage."
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+    "set": "Shining Revelry",
+    "artist": "Shigenori Negishi",
+    "image": "/images/promos/promo51.webp"
+  },
+  {
+    "id": 52,
+    "type": "Pokemon",
+    "name": "Sprigatito",
+    "stats": {
+      "hp": "60",
+      "type": "grass",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "grass",
+            "amount": 1
+          }
+        ],
+        "name": "Cry for Help",
+        "description": "Put 1 random Grass Pokémon from your deck into your hand."
+      }
+    ],
+    "weakness": "fire",
+    "retreat": 1,
+    "description": "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+    "set": "Shining Revelry",
+    "artist": "MINAMINAMI Take",
+    "image": "/images/promos/promo52.webp"
+  },
+  {
+    "id": 53,
+    "type": "Pokemon",
+    "name": "Floatzel",
+    "stats": {
+      "hp": "100",
+      "type": "water",
+      "stage": "Stage 1"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "water",
+            "amount": 1
+          }
+        ],
+        "name": "Attack the Wound",
+        "value": "10+",
+        "description": "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage."
+      }
+    ],
+    "weakness": "lightning",
+    "retreat": 1,
+    "description": "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
+    "set": "Shining Revelry",
+    "artist": "Shin Nagasawa",
+    "image": "/images/promos/promo53.webp"
+  },
+  {
+    "id": 54,
+    "type": "Pokemon",
+    "name": "Pawmot",
+    "stats": {
+      "hp": "140",
+      "type": "lightning",
+      "stage": "Stage 2"
+    },
+    "attacks": [
+      {
+        "name": "Ability: Counterattack",
+        "description": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+      },
+      {
+        "costs": [
+          {
+            "type": "lightning",
+            "amount": 2
+          }
+        ],
+        "name": "Electric Punch",
+        "value": "70"
+      }
+    ],
+    "weakness": "fighting",
+    "description": "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+    "set": "Shining Revelry",
+    "artist": "REND",
+    "image": "/images/promos/promo54.webp"
+  },
+  {
+    "id": 55,
+    "type": "Pokemon",
+    "name": "Machamp",
+    "stats": {
+      "hp": "150",
+      "type": "fighting",
+      "stage": "Stage 2"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "fighting",
+            "amount": 2
+          }
+        ],
+        "name": "Power Press",
+        "value": "70+",
+        "description": "If this Pokémon has at least 2 extra Fighting Energy attached, this attack does 50 more damage."
+      }
+    ],
+    "weakness": "psychic",
+    "retreat": 2,
+    "description": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+    "set": "Shining Revelry",
+    "artist": "Masakazu Fukuda",
+    "image": "/images/promos/promo55.webp"
+  },
+  {
+    "id": 56,
+    "type": "Pokemon",
+    "name": "Ekans",
+    "stats": {
+      "hp": "60",
+      "type": "darkness",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "darkness",
+            "amount": 1
+          }
+        ],
+        "name": "Poison Sting",
+        "description": "Your opponent's Active Pokémon is now Poisoned."
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+    "set": "Shining Revelry",
+    "artist": "Krgc",
+    "image": "/images/promos/promo56.webp"
+  },
+  {
+    "id": 57,
+    "type": "Pokemon",
+    "name": "Bidoof",
+    "stats": {
+      "hp": "70",
+      "type": "normal",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "normal",
+            "amount": 2
+          }
+        ],
+        "name": "Headbutt",
+        "value": "30"
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 2,
+    "description": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+    "set": "Shining Revelry",
+    "artist": "Kouki Saitou",
+    "image": "/images/promos/promo57.webp"
+  },
+  {
+    "id": 58,
+    "type": "Pokemon",
+    "name": "Pachirisu",
+    "stats": {
+      "hp": "70",
+      "type": "lightning",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "lightning",
+            "amount": 1
+          }
+        ],
+        "name": "Plasma",
+        "value": "10",
+        "description": "Take a Lighting Energy from your Energy Zone and attach it to 1 of your Benched Lightning Pokémon."
+      }
+    ],
+    "weakness": "fighting",
+    "retreat": 1,
+    "description": "It's one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.",
+    "set": "Shining Revelry",
+    "artist": "OOYAMA",
+    "image": "/images/promos/promo58.webp"
+  },
+  {
+    "id": 59,
+    "type": "Pokemon",
+    "name": "Riolu",
+    "stats": {
+      "hp": "70",
+      "type": "fighting",
+      "stage": "Basic"
+    },
+    "attacks": [
+      {
+        "costs": [
+          {
+            "type": "fighting",
+            "amount": 2
+          }
+        ],
+        "name": "Punch",
+        "value": "40"
+      }
+    ],
+    "weakness": "psychic",
+    "retreat": 1,
+    "description": "They communicate with one another using their auras. They are able to run all through the night.",
+    "set": "Shining Revelry",
+    "artist": "Akira Komayama",
+    "image": "/images/promos/promo59.webp"
+  }
+]

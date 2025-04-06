@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "type": "Item",
+    "name": "Potion",
+    "action": "Heal 20 damage from 1 of your Pokémon.",
+    "description": "You may play any number of item cards during your turn.",
+    "set": "Genetic Apex",
+    "artist": "5ban Graphics",
+    "image": "/images/promos/promo01.webp"
+  },
+  {
+    "id": 2,
+    "type": "Item",
+    "name": "X Speed",
+    "action": "During this turn, the Retreat Cost of your Active Pokémon is 1 less.",
+    "description": "You may play any number of item cards during your turn.",
+    "set": "Genetic Apex",
+    "artist": "Toyste Beach",
+    "image": "/images/promos/promo02.webp"
+  },
+  {
+    "id": 3,
+    "type": "Item",
+    "name": "Hand Scope",
+    "action": "Your opponent reveals their hand.",
+    "description": "You may play any number of item cards during your turn.",
+    "set": "Genetic Apex",
+    "artist": "Toyste Beach",
+    "image": "/images/promos/promo03.webp"
+  },
+  {
+    "id": 4,
+    "type": "Item",
+    "name": "Pokédex",
+    "action": "Look at the top 3 cards of your deck.",
+    "description": "You may play any number of item cards during your turn.",
+    "set": "Genetic Apex",
+    "artist": "Ryo Ueda",
+    "image": "/images/promos/promo04.webp"
+  },
+  {
+    "id": 5,
+    "type": "Item",
+    "name": "Poké Ball",
+    "action": "Put 1 random Basic Pokémon from your deck into your hand.",
+    "description": "You may play any number of item cards during your turn.",
+    "set": "Genetic Apex",
+    "artist": "Ryo Ueda",
+    "image": "/images/promos/promo05.webp"
+  },
+  {
+    "id": 6,
+    "type": "Item",
+    "name": "Red Card",
+    "action": "Your opponent shuffles their hand into their deck and draws 3 cards.",
+    "description": "You may play any number of item cards during your turn.",
+    "set": "Genetic Apex",
+    "artist": "5ban Graphics",
+    "image": "/images/promos/promo06.webp"
+  },
+  {
+    "id": 8,
+    "type": "Item",
+    "name": "Pokédex",
+    "action": "Look at the top 3 cards of your deck.",
+    "description": "You may play any number of item cards during your turn.",
+    "set": "Mythical Island",
+    "artist": "Yuu Nishida",
+    "image": "/images/promos/promo08.webp"
+  }
+]
