@@ -4,7 +4,7 @@ The backend for Poké Pocket Promos which contains data for promo cards in Poké
 
 ![A website show on different devices](./ppp-mockup.png)
 
-## Frontend
+## Frontend Poké Pocket Promos
 
 🌐 [App](https://not-josue.github.io/poke-pocket-promos/)
 
@@ -13,7 +13,7 @@ The backend for Poké Pocket Promos which contains data for promo cards in Poké
 ## API
 
 - Different JSONs for Pokémon, Items, Supporters, & Releases.
-- "id" is relative to the entire promo list
+- "id" is relative to the entire promo list.
 - Uses a free deployment on [Render.com](https://render.com/) so may take up to 15 minutes to render.
 - Updated up to Shining Revelry.
 
