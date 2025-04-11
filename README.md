@@ -14,10 +14,22 @@ The backend for Poké Pocket Promos which contains data for promo cards in Poké
 
 - Different JSONs for Pokémon, Items, Supporters, & Releases.
 - "id" is relative to the entire promo list.
-- Uses a free deployment on [Render.com](https://render.com/) so may take up to 15 minutes to render.
+- Uses a free deployment on [Render.com](https://render.com/) so may take a few minutes to start & will only run for 15 minutes or so.
 - Updated up to Shining Revelry.
 
 ### Pokémon Resource
+
+Some attacks may or may not have a `value`, `costs`, or `description` due to how the cards were created.
+
+```js
+if (value) // render
+if (costs) // render
+if (description) // render
+```
+
+- `value: string` - is a `string` due to how some cards have additive or multiplicative damage (70+ or 40x)
+
+- `costs: []` - each object has a `type: string` for which ever energy cost the card uses and an `amount: int` for however many of that energy it needs to attack
 
 #### Cards with no Flavored Text
 
@@ -33,14 +45,14 @@ The backend for Poké Pocket Promos which contains data for promo cards in Poké
     },
     "attacks": [
       {
+        "name": "Gnaw",
+        "value": "20",
         "costs": [
           {
             "type": "lightning",
             "amount": 1
           }
-        ],
-        "name": "Gnaw",
-        "value": "20"
+        ]
       }
     ],
     "weakness": "fighting",
@@ -70,6 +82,8 @@ The backend for Poké Pocket Promos which contains data for promo cards in Poké
         "description": "Once during your turn, you may heal 20 damage from each of your Pokémon."
         },
         {
+        "name": "Gust",
+        "value": "60",
         "costs": [
             {
             "type": "grass",
@@ -79,9 +93,7 @@ The backend for Poké Pocket Promos which contains data for promo cards in Poké
             "type": "normal",
             "amount": 2
             }
-        ],
-        "name": "Gust",
-        "value": "60"
+        ]
         }
     ],
     "weakness": "fire",

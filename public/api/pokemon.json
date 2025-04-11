@@ -10,14 +10,14 @@
     },
     "attacks": [
       {
+        "name": "Gnaw",
+        "value": "20",
         "costs": [
           {
             "type": "lightning",
             "amount": 1
           }
-        ],
-        "name": "Gnaw",
-        "value": "20"
+        ]
       }
     ],
     "weakness": "fighting",
@@ -38,6 +38,9 @@
     },
     "attacks": [
       {
+        "name": "Power Blast",
+        "value": "120",
+        "description": "Discard 2 Psychic Energy from this Pokémon.",
         "costs": [
           {
             "type": "psychic",
@@ -47,10 +50,7 @@
             "type": "normal",
             "amount": 2
           }
-        ],
-        "name": "Power Blast",
-        "value": "120",
-        "description": "Discard 2 Psychic Energy from this Pokémon."
+        ]
       }
     ],
     "weakness": "darkness",
@@ -71,14 +71,14 @@
     },
     "attacks": [
       {
+        "name": "Gentle Slap",
+        "value": "60",
         "costs": [
           {
             "type": "normal",
             "amount": 3
           }
-        ],
-        "name": "Gentle Slap",
-        "value": 60
+        ]
       }
     ],
     "weakness": "fighting",
@@ -99,15 +99,15 @@
     },
     "attacks": [
       {
+        "name": "Pay Day",
+        "value": "10",
+        "description": "Draw a card.",
         "costs": [
           {
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Pay Day",
-        "value": "10",
-        "description": "Draw a card."
+        ]
       }
     ],
     "weakness": "fighting",
@@ -132,6 +132,8 @@
         "description": "Once during your turn, you may heal 20 damage from each of your Pokémon."
       },
       {
+        "name": "Gust",
+        "value": "60",
         "costs": [
           {
             "type": "grass",
@@ -141,9 +143,7 @@
             "type": "normal",
             "amount": 2
           }
-        ],
-        "name": "Gust",
-        "value": "60"
+        ]
       }
     ],
     "weakness": "fire",
@@ -164,6 +164,9 @@
     },
     "attacks": [
       {
+        "name": "Bubble Drain",
+        "value": "80",
+        "description": "Heal 20 damage from this Pokémon.",
         "costs": [
           {
             "type": "water",
@@ -173,10 +176,7 @@
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Bubble Drain",
-        "value": "80",
-        "description": "Heal 20 damage from this Pokémon."
+        ]
       }
     ],
     "weakness": "lightning",
@@ -197,14 +197,14 @@
     },
     "attacks": [
       {
+        "name": "Gnaw",
+        "value": "20",
         "costs": [
           {
             "type": "lightning",
             "amount": 1
           }
-        ],
-        "name": "Gnaw",
-        "value": "20"
+        ]
       }
     ],
     "weakness": "fighting",
@@ -225,14 +225,14 @@
     },
     "attacks": [
       {
+        "name": "Slap",
+        "value": "20",
         "costs": [
           {
             "type": "psychic",
             "amount": 1
           }
-        ],
-        "name": "Slap",
-        "value": "20"
+        ]
       }
     ],
     "weakness": "metal",
@@ -253,15 +253,15 @@
     },
     "attacks": [
       {
+        "name": "Reckless Charge",
+        "value": "30",
+        "description": "This Pokémon also does 10 damage to itself.",
         "costs": [
           {
             "type": "fighting",
             "amount": 1
           }
-        ],
-        "name": "Reckless Charge",
-        "value": "30",
-        "description": "This Pokémon also does 10 damage to itself."
+        ]
       }
     ],
     "weakness": "psychic",
@@ -282,6 +282,9 @@
     },
     "attacks": [
       {
+        "name": "Mega Drain",
+        "value": "80",
+        "description": "Heal 30 damage from this Pokémon.",
         "costs": [
           {
             "type": "grass",
@@ -291,10 +294,7 @@
             "type": "normal",
             "amount": 2
           }
-        ],
-        "name": "Mega Drain",
-        "value": "80",
-        "description": "Heal 30 damage from this Pokémon."
+        ]
       }
     ],
     "weakness": "fire",
@@ -319,6 +319,8 @@
         "description": "Once during your turn, you may do 20 damage to 1 of your opponent's Pokémon."
       },
       {
+        "name": "Mist Slash",
+        "value": "60",
         "costs": [
           {
             "type": "water",
@@ -328,9 +330,7 @@
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Mist Slash",
-        "value": "60"
+        ]
       }
     ],
     "weakness": "lightning",
@@ -351,15 +351,15 @@
     },
     "attacks": [
       {
+        "name": "Surprise Attack",
+        "value": "50",
+        "description": "Flip a coin. If tails, this attack does nothing.",
         "costs": [
           {
             "type": "psychic",
             "amount": 1
           }
-        ],
-        "name": "Surprise Attack",
-        "value": "50",
-        "description": "Flip a coin. If tails, this attack does nothing."
+        ]
       }
     ],
     "weakness": "darkness",
@@ -380,14 +380,14 @@
     },
     "attacks": [
       {
+        "name": "Land Crush",
+        "value": "70",
         "costs": [
           {
             "type": "fighting",
             "amount": 3
           }
-        ],
-        "name": "Land Crush",
-        "value": "70"
+        ]
       }
     ],
     "weakness": "grass",
@@ -408,14 +408,14 @@
     },
     "attacks": [
       {
+        "name": "Sing",
+        "description": "Your opponent's Active Pokémon is now Asleep.",
         "costs": [
           {
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Sing",
-        "description": "Your opponent's Active Pokémon is now Asleep."
+        ]
       }
     ],
     "weakness": "fighting",
@@ -436,6 +436,8 @@
     },
     "attacks": [
       {
+        "name": "Vine Whip",
+        "value": "40",
         "costs": [
           {
             "type": "grass",
@@ -445,9 +447,7 @@
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Vine Whip",
-        "value": "40"
+        ]
       }
     ],
     "weakness": "fire",
@@ -468,14 +468,14 @@
     },
     "attacks": [
       {
+        "name": "Lightning Ball",
+        "value": "20",
         "costs": [
           {
             "type": "lightning",
             "amount": 1
           }
-        ],
-        "name": "Lightning Ball",
-        "value": "20"
+        ]
       }
     ],
     "weakness": "fighting",
@@ -496,16 +496,18 @@
     },
     "attacks": [
       {
+        "name": "Inferno Dance",
+        "description": "Flip 3 coins. Take an amount of Fire Energy from your Energy Zone equal to the number of heads and attach it to your Benched Fire Pokémon in any way you like.",
         "costs": [
           {
             "type": "fire",
             "amount": 1
           }
-        ],
-        "name": "Inferno Dance",
-        "description": "Flip 3 coins. Take an amount of Fire Energy from your Energy Zone equal to the number of heads and attach it to your Benched Fire Pokémon in any way you like."
+        ]
       },
       {
+        "name": "Heat Blast",
+        "value": "70",
         "costs": [
           {
             "type": "fire",
@@ -515,9 +517,7 @@
             "type": "normal",
             "amount": 2
           }
-        ],
-        "name": "Heat Blast",
-        "value": "70"
+        ]
       }
     ],
     "weakness": "lightning",
@@ -538,14 +538,14 @@
     },
     "attacks": [
       {
+        "name": "Gnaw",
+        "value": "20",
         "costs": [
           {
             "type": "lightning",
             "amount": 1
           }
-        ],
-        "name": "Gnaw",
-        "value": "20"
+        ]
       }
     ],
     "weakness": "fighting",
@@ -566,14 +566,14 @@
     },
     "attacks": [
       {
+        "name": "Tackle",
+        "value": "20",
         "costs": [
           {
             "type": "grass",
             "amount": 1
           }
-        ],
-        "name": "Tackle",
-        "value": "20"
+        ]
       }
     ],
     "weakness": "fire",
@@ -594,6 +594,8 @@
     },
     "attacks": [
       {
+        "name": "Volcanic Ash",
+        "description": "Discard 2 Fire Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon.",
         "costs": [
           {
             "type": "fire",
@@ -603,9 +605,7 @@
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Volcanic Ash",
-        "description": "Discard 2 Fire Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon."
+        ]
       }
     ],
     "weakness": "water",
@@ -626,6 +626,9 @@
     },
     "attacks": [
       {
+        "name": "Hydro Pump",
+        "value": "80+",
+        "description": "If this Pokémon has at least 2 extra Water Energy attached, this attack does 60 more damage.",
         "costs": [
           {
             "type": "water",
@@ -635,10 +638,7 @@
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Hydro Pump",
-        "value": "80+",
-        "description": "If this Pokémon has at least 2 extra Water Energy attached, this attack does 60 more damage."
+        ]
       }
     ],
     "weakness": "lightning",
@@ -659,14 +659,14 @@
     },
     "attacks": [
       {
+        "name": "Grow",
+        "description": "During your opponent's next turn, attacks used by the Defending Pokémon do -20 damage.",
         "costs": [
           {
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Grow",
-        "description": "During your opponent's next turn, attacks used by the Defending Pokémon do -20 damage."
+        ]
       }
     ],
     "weakness": "fighting",
@@ -687,15 +687,15 @@
     },
     "attacks": [
       {
+        "name": "Do the Wave",
+        "value": "30x",
+        "description": "This attack does 30 damage for each of your Benched Pokémon.",
         "costs": [
           {
             "type": "normal",
             "amount": 3
           }
-        ],
-        "name": "Do the Wave",
-        "value": "30x",
-        "description": "During your opponent's next turn, attacks used by the Defending Pokémon do -20 damage."
+        ]
       }
     ],
     "weakness": "fighting",
@@ -716,15 +716,15 @@
     },
     "attacks": [
       {
+        "name": "Ember",
+        "value": "30",
+        "description": "Discard a Fire Energy from this Pokémon.",
         "costs": [
           {
             "type": "fire",
             "amount": 1
           }
-        ],
-        "name": "Ember",
-        "value": "30",
-        "description": "Discard a Fire Energy from this Pokémon."
+        ]
       }
     ],
     "weakness": "water",
@@ -745,14 +745,14 @@
     },
     "attacks": [
       {
+        "name": "Water Gun",
+        "value": "20",
         "costs": [
           {
             "type": "water",
             "amount": 1
           }
-        ],
-        "name": "Water Gun",
-        "value": "20"
+        ]
       }
     ],
     "weakness": "lightning",
@@ -773,14 +773,14 @@
     },
     "attacks": [
       {
+        "name": "Nap",
+        "description": "Heal 20 damage from this Pokémon.",
         "costs": [
           {
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Nap",
-        "description": "Heal 20 damage from this Pokémon."
+        ]
       }
     ],
     "weakness": "lightning",
@@ -801,6 +801,8 @@
     },
     "attacks": [
       {
+        "name": "Bite",
+        "value": "30",
         "costs": [
           {
             "type": "grass",
@@ -810,9 +812,7 @@
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Bite",
-        "value": "30"
+        ]
       }
     ],
     "weakness": "fire",
@@ -833,15 +833,15 @@
     },
     "attacks": [
       {
+        "name": "Exciting Voltage",
+        "value": "40+",
+        "description": "If this Pokémon has at least 2 extra Lightning Energy attached, this attack does 80 more damage.",
         "costs": [
           {
             "type": "lightning",
             "amount": 2
           }
-        ],
-        "name": "Exciting Voltage",
-        "value": "40+",
-        "description": "If this Pokémon has at least 2 extra Lightning Energy attached, this attack does 80 more damage."
+        ]
       }
     ],
     "weakness": "fighting",
@@ -866,6 +866,8 @@
         "description": "Whenever you attach a Psychic Energy from your Energy Zone to this Pokémon, heal 20 damage from this Pokémon."
       },
       {
+        "name": "Psychic Flash",
+        "value": "80",
         "costs": [
           {
             "type": "psychic",
@@ -875,9 +877,7 @@
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Psychic Flash",
-        "value": "80"
+        ]
       }
     ],
     "weakness": "darkness",
@@ -898,14 +898,14 @@
     },
     "attacks": [
       {
+        "name": "Confuse Ray",
+        "description": "Your opponent's Active Pokémon is now Confused.",
         "costs": [
           {
             "type": "psychic",
             "amount": 1
           }
-        ],
-        "name": "Confuse Ray",
-        "description": "Your opponent's Active Pokémon is now Confused."
+        ]
       }
     ],
     "weakness": "fighting",
@@ -926,15 +926,15 @@
     },
     "attacks": [
       {
+        "name": "Metal Arms",
+        "value": "20+",
+        "description": "If this Pokémon has a Pokémon Tool attached, this attack does 30 more damage.",
         "costs": [
           {
             "type": "metal",
             "amount": 1
           }
-        ],
-        "name": "Metal Arms",
-        "value": "20+",
-        "description": "If this Pokémon has a Pokémon Tool attached, this attack does 30 more damage."
+        ]
       }
     ],
     "weakness": "lightning",
@@ -955,14 +955,14 @@
     },
     "attacks": [
       {
+        "name": "Scratch",
+        "value": "20",
         "costs": [
           {
             "type": "fire",
             "amount": 1
           }
-        ],
-        "name": "Scratch",
-        "value": "20"
+        ]
       }
     ],
     "weakness": "water",
@@ -983,14 +983,14 @@
     },
     "attacks": [
       {
+        "name": "Pound",
+        "value": "20",
         "costs": [
           {
             "type": "psychic",
             "amount": 1
           }
-        ],
-        "name": "Pound",
-        "value": "20"
+        ]
       }
     ],
     "weakness": "metal",
@@ -1015,6 +1015,8 @@
         "description": "Whenever you attach a Darkness Energy from your Energy Zone to this Pokémon, do 20 damage to your opponent's Active Pokémon."
       },
       {
+        "name": "Dark Prism",
+        "value": "80",
         "costs": [
           {
             "type": "darkness",
@@ -1024,9 +1026,7 @@
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Dark Prism",
-        "value": "80"
+        ]
       }
     ],
     "weakness": "grass",
@@ -1047,15 +1047,15 @@
     },
     "attacks": [
       {
+        "name": "Leech Seed",
+        "value": "60",
+        "description": "Heal 20 damage from this Pokémon.",
         "costs": [
           {
             "type": "grass",
             "amount": 2
           }
-        ],
-        "name": "Leech Seed",
-        "value": "60",
-        "description": "Heal 20 damage from this Pokémon."
+        ]
       }
     ],
     "weakness": "fire",
@@ -1080,15 +1080,15 @@
         "description": "If you have Arceus or Arceus ex in play, this Pokémon takes -30 damage from attacks."
       },
       {
+        "name": "Spark",
+        "value": "40",
+        "description": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon.",
         "costs": [
           {
             "type": "lightning",
             "amount": 2
           }
-        ],
-        "name": "Spark",
-        "value": "40",
-        "description": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+        ]
       }
     ],
     "weakness": "fighting",
@@ -1109,14 +1109,14 @@
     },
     "attacks": [
       {
+        "name": "Iron Defense",
+        "description": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
         "costs": [
           {
             "type": "normal",
             "amount": 2
           }
-        ],
-        "name": "Iron Defense",
-        "description": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks."
+        ]
       }
     ],
     "weakness": "grass",
@@ -1137,14 +1137,14 @@
     },
     "attacks": [
       {
+        "name": "Tackle",
+        "value": "20",
         "costs": [
           {
             "type": "fighting",
             "amount": 1
           }
-        ],
-        "name": "Tackle",
-        "value": "20"
+        ]
       }
     ],
     "weakness": "grass",
@@ -1169,14 +1169,14 @@
         "description": "This Pokémon takes -30 damage from attacks from Fighting Pokémon."
       },
       {
+        "name": "Wing Attack",
+        "value": "90",
         "costs": [
           {
             "type": "normal",
             "amount": 3
           }
-        ],
-        "name": "Wing Attack",
-        "value": "90"
+        ]
       }
     ],
     "weakness": "lightning",
@@ -1197,14 +1197,14 @@
     },
     "attacks": [
       {
+        "name": "Oceanic Gift",
+        "description": "Choose 2 of your Benched Pokémon. For each of those Pokémon, take a Water Energy from your Energy Zone and attach it to that Pokémon.",
         "costs": [
           {
             "type": "water",
             "amount": 1
           }
-        ],
-        "name": "Oceanic Gift",
-        "description": "Choose 2 of your Benched Pokémon. For each of those Pokémon, take a Water Energy from your Energy Zone and attach it to that Pokémon."
+        ]
       }
     ],
     "weakness": "lightning",
@@ -1225,15 +1225,15 @@
     },
     "attacks": [
       {
+        "name": "Collapse",
+        "value": "100",
+        "description": "This Pokémon is now Asleep.",
         "costs": [
           {
             "type": "normal",
             "amount": 4
           }
-        ],
-        "name": "Collapse",
-        "value": "100",
-        "description": "This Pokémon is now Asleep."
+        ]
       }
     ],
     "weakness": "fighting",
@@ -1254,6 +1254,8 @@
     },
     "attacks": [
       {
+        "name": "Psychic Sphere",
+        "value": "50",
         "costs": [
           {
             "type": "psychic",
@@ -1263,11 +1265,12 @@
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Psychic Sphere",
-        "value": "50"
+        ]
       },
       {
+        "name": "Psydrive",
+        "value": 150,
+        "description": "Discard 2 Psychic Energy from this Pokémon.",
         "costs": [
           {
             "type": "psychic",
@@ -1277,10 +1280,7 @@
             "type": "normal",
             "amount": 2
           }
-        ],
-        "name": "Psydrive",
-        "value": 150,
-        "description": "Discard 2 Psychic Energy from this Pokémon."
+        ]
       }
     ],
     "weakness": "darkness",
@@ -1301,15 +1301,15 @@
     },
     "attacks": [
       {
+        "name": "Overacceleration",
+        "value": "20",
+        "description": "During your next turn, this Pokémon's Overacceleration attack does +20 damage.",
         "costs": [
           {
             "type": "normal",
             "amount": 1
           }
-        ],
-        "name": "Overacceleration",
-        "value": "20",
-        "description": "During your next turn, this Pokémon's Overacceleration attack does +20 damage."
+        ]
       }
     ],
     "weakness": "fighting",
@@ -1330,14 +1330,14 @@
     },
     "attacks": [
       {
+        "name": "Cry for Help",
+        "description": "Put 1 random Grass Pokémon from your deck into your hand.",
         "costs": [
           {
             "type": "grass",
             "amount": 1
           }
-        ],
-        "name": "Cry for Help",
-        "description": "Put 1 random Grass Pokémon from your deck into your hand."
+        ]
       }
     ],
     "weakness": "fire",
@@ -1358,15 +1358,15 @@
     },
     "attacks": [
       {
+        "name": "Attack the Wound",
+        "value": "10+",
+        "description": "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage.",
         "costs": [
           {
             "type": "water",
             "amount": 1
           }
-        ],
-        "name": "Attack the Wound",
-        "value": "10+",
-        "description": "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage."
+        ]
       }
     ],
     "weakness": "lightning",
@@ -1391,14 +1391,14 @@
         "description": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
       },
       {
+        "name": "Electric Punch",
+        "value": "70",
         "costs": [
           {
             "type": "lightning",
             "amount": 2
           }
-        ],
-        "name": "Electric Punch",
-        "value": "70"
+        ]
       }
     ],
     "weakness": "fighting",
@@ -1418,15 +1418,15 @@
     },
     "attacks": [
       {
+        "name": "Power Press",
+        "value": "70+",
+        "description": "If this Pokémon has at least 2 extra Fighting Energy attached, this attack does 50 more damage.",
         "costs": [
           {
             "type": "fighting",
             "amount": 2
           }
-        ],
-        "name": "Power Press",
-        "value": "70+",
-        "description": "If this Pokémon has at least 2 extra Fighting Energy attached, this attack does 50 more damage."
+        ]
       }
     ],
     "weakness": "psychic",
@@ -1447,14 +1447,14 @@
     },
     "attacks": [
       {
+        "name": "Poison Sting",
+        "description": "Your opponent's Active Pokémon is now Poisoned.",
         "costs": [
           {
             "type": "darkness",
             "amount": 1
           }
-        ],
-        "name": "Poison Sting",
-        "description": "Your opponent's Active Pokémon is now Poisoned."
+        ]
       }
     ],
     "weakness": "fighting",
@@ -1475,14 +1475,14 @@
     },
     "attacks": [
       {
+        "name": "Headbutt",
+        "value": "30",
         "costs": [
           {
             "type": "normal",
             "amount": 2
           }
-        ],
-        "name": "Headbutt",
-        "value": "30"
+        ]
       }
     ],
     "weakness": "fighting",
@@ -1503,15 +1503,15 @@
     },
     "attacks": [
       {
+        "name": "Plasma",
+        "value": "10",
+        "description": "Take a Lighting Energy from your Energy Zone and attach it to 1 of your Benched Lightning Pokémon.",
         "costs": [
           {
             "type": "lightning",
             "amount": 1
           }
-        ],
-        "name": "Plasma",
-        "value": "10",
-        "description": "Take a Lighting Energy from your Energy Zone and attach it to 1 of your Benched Lightning Pokémon."
+        ]
       }
     ],
     "weakness": "fighting",
@@ -1532,14 +1532,14 @@
     },
     "attacks": [
       {
+        "name": "Punch",
+        "value": "40",
         "costs": [
           {
             "type": "fighting",
             "amount": 2
           }
-        ],
-        "name": "Punch",
-        "value": "40"
+        ]
       }
     ],
     "weakness": "psychic",
