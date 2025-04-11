@@ -46,6 +46,7 @@ app.post("/comments", (req, res) => {
     cardid: Number(req.body.cardid),
     name: req.body.name,
     text: req.body.text,
+    timestamp: new Date(),
   };
 
   comments.push(comment);
