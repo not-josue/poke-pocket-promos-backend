@@ -3,6 +3,8 @@ const cors = require("cors");
 const joi = require("joi");
 const app = express();
 
+const PORT = 8000;
+
 app.use(express.static("public"));
 app.use(express.json());
 app.use(cors());
@@ -54,6 +56,10 @@ app.post("/comments", (req, res) => {
 });
 
 app.get("/comments", (req, res) => {
+  res.send(comments);
+});
+
+app.get("/comments/:id", (req, res) => {
   const { cardid } = req.query;
 
   if (!cardid) return res.status(400).send("No comments for this card...");
@@ -63,7 +69,34 @@ app.get("/comments", (req, res) => {
   res.send(filter);
 });
 
+// Editing Comments
+app.put("/comments", (req, res) => {
+  const { id, name, text } = req.body;
+  const index = comments.findIndex((el) => el.id === Number(id));
+
+  if (index === -1) return res.status(404).send("Comment not found...");
+
+  comments[index].name = name;
+  comments[index].text = text;
+  comments[index].timestamp = new Date();
+
+  res.send(comments[index]);
+});
+
+// Deleting Comments
+app.delete("/comments/:id", (req, res) => {
+  const commentId = Number(req.params.id);
+  const index = comments.findIndex((el) => el.id === commentId);
+
+  if (index === -1) return res.status(404).send("Comment not found...");
+
+  const deletedComment = comments[index];
+  comments.splice(index, 1);
+
+  res.send(deletedComment);
+});
+
 // Start Server
-app.listen(3000, () => {
-  console.log("I'm listening");
+app.listen(PORT, () => {
+  console.log(`Server connected to PORT ${PORT}`);
 });
